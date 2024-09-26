@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: Expense Tracker API
+  version: 1.0.0
+  description: API documentation for managing expenses
+servers:
+  - url: http://localhost:5000
+paths:
+  /expenses:
+    get:
+      summary: Get all expenses
+      responses:
+        '200':
+          description: A list of expenses
